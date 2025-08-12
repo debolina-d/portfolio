@@ -287,7 +287,7 @@ body {
 }
 
 .profile-title {
-    font-size: 1.2rem !important;
+    font-size: 1.0rem !important;
     color: var(--text-tertiary) !important;
     font-weight: 400 !important;
     transition: color 0.3s ease;
@@ -668,6 +668,18 @@ body {
 /* Hide the default cursor everywhere */
 body, * {
     cursor: none !important;
+}
+
+/* Show default cursor on mobile devices */
+@media (max-width: 768px) {
+    body, * {
+        cursor: auto !important;
+    }
+    
+    .custom-cursor,
+    .cursor-trail {
+        display: none !important;
+    }
 }
 
 /* Responsive Design */

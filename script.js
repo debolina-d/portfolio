@@ -194,7 +194,7 @@ const translations = {
     en: {
         // Profile Section
         'name': 'Debolina Das',
-        'profile-title': 'Web Developer',
+        'profile-title': 'AI and ML Enthusiast | Web Development Intern',
         'download-cv': 'Download CV',
         'copy': 'Copy',
         
