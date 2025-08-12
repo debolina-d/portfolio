@@ -611,6 +611,7 @@ body {
     margin-bottom: 20px;
     color: var(--text-primary);
     transition: color 0.3s ease;
+    text-align: center;
 }
 
 /* Footer Styles */
@@ -1050,7 +1051,7 @@ body, * {
 .accordion-header.centered-title { font-size: 0.85rem; }
 
   .country-flag {
-    margin-left: 6px;
+    margin-left: 10px;
     font-size: 1rem;
     line-height: 1;
     display: inline-block;
