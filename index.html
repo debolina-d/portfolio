@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debolina Das - Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-left">
+
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon moon-icon"></i>
+                    <i class="fas fa-sun sun-icon"></i>
+                </button>
+            </div>
+            <div class="header-right">
+                <div class="language-selector" id="language-selector">
+                    <span class="current-lang">ENG</span>
+                    <i class="fas fa-flag"></i>
+                    <div class="language-dropdown" id="language-dropdown">
+                        <div class="lang-option" data-lang="en">
+                            <span>English</span>
+                            <span class="country-code">UK</span>
+                        </div>
+                        <div class="lang-option" data-lang="hi">
+                            <span>हिंदी</span>
+                            <span class="country-code">IN</span>
+                        </div>
+                        <div class="lang-option" data-lang="bn">
+                            <span>বাংলা</span>
+                            <span class="country-code">IN</span>
+                        </div>
+                        <div class="lang-option" data-lang="as">
+                            <span>অসমীয়া</span>
+                            <span class="country-code">IN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Profile Section -->
+            <section class="profile-section">
+                <div class="profile-left">
+
+                    <div class="profile-image">
+                        <div class="profile-placeholder"></div>
+                    </div>
+                    <div class="profile-info">
+                        <h1 class="profile-name">Debolina Das</h1>
+                        <p class="profile-title" data-translate="profile-title">Web Developer</p>
+                    </div>
+                </div>
+                <div class="profile-right">
+
+                    <a class="download-cv-btn" href="assets/Debolina_Das_CV.pdf" download>
+                        <span data-translate="download-cv">Download CV</span>
+                        <i class="fas fa-download"></i>
+
+                    </a>
+                </div>
+            </section>
+
+            <!-- Content Cards -->
+            <div class="content-cards">
+                <!-- Generally Section -->
+                <section class="card generally-section">
+                    <h2 data-translate="my-story-title">My Story</h2>
+                    <p data-translate="my-story-content">I'm a second-year MCA student at Vellore Institute of Technology (VIT), Vellore Campus, and I am passionate about exploring the ever-evolving landscape of technology. I see tech as a powerful catalyst for solving humanity's greatest challenges and driving meaningful change. With a curious mindset and a drive to learn, I'm eager to embrace new opportunities, expand my skills, and contribute to impactful solutions. Excited to grow my career and make a difference!</p>
+                </section>
+
+
+                <!-- Contacts Section -->
+                <section class="card contacts-section">
+                    <h2 data-translate="contacts-title">Contacts</h2>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span class="contact-text">diyalinad13@gmail.com</span>
+                        <button class="copy-btn">Copy</button>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-location-dot"></i>
+                        <span class="contact-text" data-translate="location">India 🇮🇳</span>
+                    </div>
+
+                    <!-- Social Media Buttons -->
+                    <div class="reach-actions">
+                        <div class="social-buttons">
+                            <a href="https://www.linkedin.com/in/debolina-das-tech13/" class="social-btn linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/debolina-d" class="social-btn github" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <a href="https://www.linkedin.com/in/debolina-das-tech13/" class="reach-out-btn" data-translate="reach-out">Reach out!</a>
+                    </div>
+                </section>
+            </div>
+
+                <!-- About Section -->
+                <section class="about-section">
+                    <h2 data-translate="about-title">About</h2>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span class="number">01</span>
+                                <span data-translate="tech-stack">Tech Stack</span>
+                                <span class="icon">▼</span>
+                            </button>
+                            <div class="accordion-content">
+                                <ul class="stack-list">
+                                    <li><strong data-translate="prog-lang">Programming Languages</strong>: <span data-translate="java">Java</span>, <span data-translate="python">Python</span></li>
+                                    <li><strong data-translate="version-control">Version Control</strong>: <span data-translate="git">Git</span>, <span data-translate="github">GitHub</span></li>
+                                    <li><strong data-translate="web-dev">Web Development</strong>: <span data-translate="mern">MERN Stack</span> (<span data-translate="mongodb">MongoDB</span>, <span data-translate="express">Express.js</span>, <span data-translate="react">React</span>, <span data-translate="nodejs">Node.js</span>), <span data-translate="html">HTML</span>, <span data-translate="css">CSS</span>, <span data-translate="javascript">JavaScript</span></li>
+                                    <li><strong data-translate="databases">Databases</strong>: <span data-translate="mysql">MySQL</span>, <span data-translate="mongodb">MongoDB</span></li>
+                                    <li><strong data-translate="ai-ml">AI/ML</strong>: <span data-translate="artificial-intelligence">Artificial Intelligence</span>, <span data-translate="machine-learning">Machine Learning</span>, <span data-translate="deep-learning">Deep Learning</span></li>
+                                    <li><strong data-translate="design-tools">Design Tools</strong>: <span data-translate="figma">Figma</span>, <span data-translate="adobe-indesign">Adobe InDesign</span></li>
+                                    <li><strong data-translate="devops-tools">DevOps & Tools</strong>: <span data-translate="docker">Docker</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span class="number">02</span>
+                                <span data-translate="education">Education</span>
+                                <span class="icon">▼</span>
+                            </button>
+                            <div class="accordion-content">
+                                <ul class="education-list">
+                                    <li>
+                                        <strong data-translate="vit">Vellore Institute of Technology (VIT), Vellore</strong><br>
+                                        <span data-translate="mca">Master of Computer Applications (MCA), Information Technology</span><br>
+                                        <span data-translate="issued">Issued</span> Jul 2024 – Jun 2026
+                                    </li>
+                                    <li>
+                                        <strong data-translate="rgu">Royal Global University</strong><br>
+                                        <span data-translate="bca">Bachelor of Computer Applications (BCA), Information Technology</span><br>
+                                        Oct 2021 – Jul 2024 | <span data-translate="grade">Grade</span>: 9.01/10
+                                    </li>
+                                    <li>
+                                        <strong data-translate="sps">South Point School – India</strong><br>
+                                        <span data-translate="class-12">Class 12, Commerce</span><br>
+                                        Apr 2020 – Mar 2021 | <span data-translate="grade">Grade</span>: 91%
+                                    </li>
+                                    <li>
+                                        <strong data-translate="sps">South Point School – India</strong><br>
+                                        <span data-translate="class-10">Class 10</span><br>
+                                        Apr 2018 – Mar 2019 | <span data-translate="grade">Grade</span>: 90.4%
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <span class="number">03</span>
+                                <span data-translate="certifications">Certifications</span>
+                                <i class="fas fa-chevron-down caret"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <ul class="cert-list">
+                                    <li class="cert-item">
+                                        <div class="cert-logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                                        </div>
+                                        <div class="cert-content">
+                                            <div class="cert-title" data-translate="docker-foundations">Docker Foundations Professional Certificate</div>
+                                            <div class="cert-issuer" data-translate="docker-inc">Docker, Inc</div>
+                                            <div class="cert-date"><span data-translate="issued">Issued</span> Jun 2025</div>
+                                        </div>
+                                    </li>
+                                    <li class="cert-item">
+                                        <div class="cert-logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg" alt="Kaggle">
+                                        </div>
+                                        <div class="cert-content">
+                                            <div class="cert-title" data-translate="kaggle-ml">Intro to Machine Learning</div>
+                                            <div class="cert-issuer" data-translate="kaggle">Kaggle</div>
+                                            <div class="cert-date"><span data-translate="issued">Issued</span> Mar 2024</div>
+                                        </div>
+                                    </li>
+                                    <li class="cert-item">
+                                        <div class="cert-logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS">
+                                        </div>
+                                        <div class="cert-content">
+                                            <div class="cert-title" data-translate="aws-cloud">Cloud Computing on AWS: Ultimate Beginners Course – 2023</div>
+                                            <div class="cert-issuer" data-translate="udemy">Udemy</div>
+                                            <div class="cert-date"><span data-translate="issued">Issued</span> Dec 2023 | <span data-translate="credential-id">Credential ID</span>: UC-168a1905-cee5-49b5-93a2-fd3b8a205c51</div>
+                                        </div>
+                                    </li>
+                                    <li class="cert-item">
+                                        <div class="cert-logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch">
+                                        </div>
+                                        <div class="cert-content">
+                                            <div class="cert-title" data-translate="pytorch-dl">Deep Learning with Python & PyTorch for Image Classification</div>
+                                            <div class="cert-issuer" data-translate="udemy">Udemy</div>
+                                            <div class="cert-date"><span data-translate="issued">Issued</span> Nov 2023 | <span data-translate="credential-id">Credential ID</span>: UC-a533d8bb-77d9-44aa-a310-24c25dad64f3</div>
+                                        </div>
+                                    </li>
+                                    <li class="cert-item">
+                                        <div class="cert-logo">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Google">
+                                        </div>
+                                        <div class="cert-content">
+                                            <div class="cert-title" data-translate="google-digital">The Fundamentals of Digital Marketing</div>
+                                            <div class="cert-issuer" data-translate="google">Google</div>
+                                            <div class="cert-date"><span data-translate="issued">Issued</span> Sep 2021 | <span data-translate="credential-id">Credential ID</span>: PDV H39 Y84</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span class="number">04</span>
+                                <span data-translate="languages">Languages</span>
+                                <span class="icon">▼</span>
+                            </button>
+                            <div class="accordion-content">
+                                <ul class="lang-list">
+                                    <li><strong data-translate="assamese">Assamese</strong> – <span data-translate="professional-working">Professional working proficiency</span></li>
+                                    <li><strong data-translate="bengali">Bengali</strong> – <span data-translate="native-bilingual">Native or bilingual proficiency</span></li>
+                                    <li><strong data-translate="english">English</strong> – <span data-translate="full-professional">Full professional proficiency</span></li>
+                                    <li><strong data-translate="hindi">Hindi</strong> – <span data-translate="native-bilingual">Native or bilingual proficiency</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Project Section -->
+                <section class="projects-section">
+                    <h2 data-translate="projects-title">Projects</h2>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-header centered-title">
+                                <span class="number">01</span>
+                                <span data-translate="project-1-title">Optimized Inception-Based Deep Learning Architecture for the Detection of Macular Degeneration</span>
+                                <span class="icon">▼</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p class="project-meta" data-translate="project-1-domain">Domain: Deep Learning, Medical Imaging • Oct 2024 – Apr 2025</p>
+                                <ul class="proj-points">
+                                    <li data-translate="project-1-desc-1">Designed a novel deep learning architecture by fusing InceptionV3 and InceptionResNetV2, based on comparative analysis with InceptionV1, V3, and ResNetV2 across three retinal datasets.</li>
+                                    <li data-translate="project-1-desc-2">Conducted model benchmarking to identify optimal performance traits.</li>
+                                    <li data-translate="project-1-desc-3">Proposed a hybrid architecture leveraging global feature fusion and regularization layers for improved diagnostic precision.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span class="number">02</span>
+                                <span data-translate="project-2-title">Comparative Analysis on CNN Models for Prediction of Macular Degeneration</span>
+                                <span class="icon">▼</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p class="project-meta" data-translate="project-2-domain">Domain: Computer Vision, Medical Imaging • Sep 2023 – Jan 2024</p>
+                                <ul class="proj-points">
+                                    <li data-translate="project-2-desc-1">Performed comparative analysis of ResNet50, VGG16, and GoogLeNet for predicting macular degeneration using three datasets.</li>
+                                    <li data-translate="project-2-desc-2">Applied data preprocessing and augmentation to enhance model performance.</li>
+                                    <li data-translate="project-2-desc-3">Assessed models based on accuracy, precision, recall, and F1-score across datasets.</li>
+                                    <li data-translate="project-2-desc-4">Utilized transfer learning with pre-trained ImageNet weights for faster training and improved results.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span class="number">03</span>
+                                <span data-translate="project-3-title">RCNN-Based Breast Cancer Detection Using Histopathological Images</span>
+                                <span class="icon">▼</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p class="project-meta" data-translate="project-3-domain">Domain: Deep Learning, Cancer Detection, Medical AI • Mar 2025 – Apr 2025</p>
+                                <ul class="proj-points">
+                                    <li data-translate="project-3-desc-1">Developed an AI-based detection system using Region-based Convolutional Neural Networks (RCNN) to classify histopathological images as benign or malignant.</li>
+                                    <li data-translate="project-3-desc-2">Leveraged RCNN architecture for precise localization and classification of cancerous regions.</li>
+                                    <li data-translate="project-3-desc-3">Processed and trained on real-world histopathological image datasets.</li>
+                                    <li data-translate="project-3-desc-4">Built a full-stack web interface using Flask for real-time image analysis.</li>
+                                    <li data-translate="project-3-desc-5">Achieved high accuracy in identifying malignancies, supporting early cancer detection.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span class="number">04</span>
+                                <span data-translate="project-4-title">Full-Stack Web Application for Online Medical Consultations Using MERN</span>
+                                <span class="icon">▼</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p class="project-meta" data-translate="project-4-domain">Domain: Web Development, Healthcare Tech • Feb 2025 – Mar 2025</p>
+                                <ul class="proj-points">
+                                    <li data-translate="project-4-desc-1">Developed a full-stack healthcare dashboard to manage appointments, diagnoses, and patient records.</li>
+                                    <li data-translate="project-4-desc-2">Built using React.js, Vite, and Axios for a fast, responsive UI.</li>
+                                    <li data-translate="project-4-desc-3">Designed modular components like Dashboard, Appointment Manager, Diagnosis Form, and Patient History View.</li>
+                                    <li data-translate="project-4-desc-4">Created RESTful APIs with Node.js, Express.js, and MongoDB for efficient data handling.</li>
+                                    <li data-translate="project-4-desc-5">Ensured clean code structure with ESLint, organized layout, and optimized development using VS Code and Chrome DevTools.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span class="number">05</span>
+                                <span data-translate="project-5-title">Multi-Threaded File Search using Python</span>
+                                <span class="icon">▼</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p class="project-meta" data-translate="project-5-domain">Domain: Python Programming, System Utilities • Mar 2025 – Mar 2025</p>
+                                <ul class="proj-points">
+                                    <li data-translate="project-5-desc-1">Developed a multi-threaded file search tool with regular expression (regex) support for efficient pattern matching across multiple files and directories.</li>
+                                    <li data-translate="project-5-desc-2">Utilized Python threading for faster performance.</li>
+                                    <li data-translate="project-5-desc-3">Added regex support for complex pattern searches.</li>
+                                    <li data-translate="project-5-desc-4">Optimized for large-scale directory traversal.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="custom-cursor"></div>
+                <div class="cursor-trail"></div>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="copyright" data-translate="copyright">© 2025 Debolina Das. All rights reserved.</p>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
